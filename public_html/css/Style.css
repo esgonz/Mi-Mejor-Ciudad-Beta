@@ -1,0 +1,205 @@
+
+/*
+//azul 31ADB9
+//azul oscuro 027a85
+//azul claro 53C2CC
+
+//rojo F94052
+//rojo oscuro D40014
+//rojo claro FB6472
+
+//amarillo ffc941
+//amarillo oscuro DB9D00
+//amarillo claro FFD466
+
+pagina de inicio*/
+body{
+	background: url('img/bg_white.png');
+	}
+.containerMain{
+	margin-top: 5em;
+}
+footer{
+	background: #526564;
+}
+footer  a{
+	color: white;
+}
+footer  a:hover{
+	color: #526564;
+}
+.logo{
+	max-width: 220px;
+}
+.logo-footer{
+	max-width: 180px !important;
+}
+/*index*/
+#map{
+	width: 100%;
+	height: 540px;
+}
+#causasBar{
+	position: absolute;
+	z-index: 9999;
+	top: 210px;
+	left: 30px;
+	min-height: 420px;
+	max-height: 450px;
+	overflow: auto;
+	width: 300px;
+	background: white;
+}
+#direccionMap{
+	position: absolute;
+	z-index: 9999;
+	top: 15px;
+	background: white;
+}
+.jumbotron{
+	margin-top: 1em;
+	background: url('img/bg_lblue.png');
+}
+.jumbotron  h1{
+	color: #fff;
+}
+.jumbotron  p{
+	color: #404040;
+}
+.navbar-inverse{
+	background: #404040;
+	border-color: #202020;
+	color: white !important;
+}
+.btn-primary{
+	background: #F94052 !important;
+	border-color: #333;
+
+
+}
+.btn-primary-inverse{
+	background: #ffc941 !important;
+	border-color: #333 !important;
+	color: #333 !important;
+}
+
+.btn-default{
+	background: #ededed !important;
+	border-color: #333;
+}
+
+
+.tipos-problema h2{
+	text-align: center;
+}
+.detalle-box {
+}
+.detalle-box h2{
+	text-align: center;
+	color: #027a85;
+
+}
+.detalle-box h3 {
+	text-align: center;
+	color: #D40014;
+}
+.detalle-box p {
+	text-align: center;
+}
+.icon-semaforo{
+background: url('icons/semaforo1.png');
+
+}
+.icon-via{
+background: url('icons/via.png');
+
+}
+.icon-transito{
+background: url('icons/transito.png');	
+}
+.icon-personas{
+background: url('icons/personas.png');	
+}
+.icon-calendarok{
+background: url('icons/calendarok.png');	
+}
+.icon-calendarfail{
+background: url('icons/calendarfail.png');	
+}
+.icon-geo{
+background: url('icons/geo.png');	
+}
+.icon-comentarios{
+background: url('icons/comentarios.png');	
+}
+.icon-tags{
+background: url('icons/tags.png');	
+}
+.icon-inicio{
+	width: 8em;
+	height: 8em;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.icon-single{
+	width: 2em;
+	height: 2em;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: .4em;
+	margin-bottom: .4em;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.detalle-causa h2,.detalle-causa h3,.detalle-causa h4{
+	color: white;
+}
+.icon-detalle{
+	width: 5em;
+	height: 5em;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: .4em;
+	margin-bottom: .4em;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*single*/
+.detalle-box{
+
+}
+.detalle-box h3{
+	color: #027a85;
+	font-size: 1.2em;
+}
+.detalle-box p{
+	color: #606060;
+	font-size: .9em;
+}
+
+.tag-min{
+	font-size: .85em;
+	font-weight: bold;
+	color: white;
+	background-color: #DB9D00;
+	border: solid 1px #FFD466;
+	padding: .25em;
+	position: relative;
+	display: inline-block;
+	margin-left: .2em;
+	margin-top: .2em;
+}
+.thumb-listar{
+	    min-height: 750px;
+}
+.avatar-coment{
+	max-width: 33%;
+}
+.avatar-listar{
+	max-width: 250px;
+}
